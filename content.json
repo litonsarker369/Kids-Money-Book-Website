@@ -1,0 +1,95 @@
+{
+  "site": {
+    "title": "Uncle Money - Learn Why Earning Money Matters!",
+    "description": "A fun children's book for ages 8-10 that teaches kids why earning money matters. Join the adventure with Uncle Money!",
+    "author": "Nibir Sarker",
+    "email": "hello@unclemoneybook.com"
+  },
+  "hero": {
+    "tagline": "Discover Why Earning Money is the Best Adventure!",
+    "subtitle": "A fun-filled story that teaches kids the value of hard work and saving",
+    "cta_text": "Get Your Copy",
+    "cta_link": "#shop"
+  },
+  "about": {
+    "title": "Why Uncle Money?",
+    "content": "In this exciting adventure, kids join our friendly Uncle Money as he shows them the magic of earning, saving, and spending wisely. Perfect for ages 8-10, this book makes financial literacy fun!",
+    "lessons": [
+      "Why earning feels amazing",
+      "The joy of saving for goals",
+      "Smart spending decisions",
+      "Kindness through sharing"
+    ]
+  },
+  "author": {
+    "name": "Nibir Sarker",
+    "bio": "Nibir Sarker loves writing stories that help kids learn important life lessons while having fun. With a background in education and a passion for making complex topics simple, Uncle Money was born from the desire to teach children about money in an engaging way.",
+    "image": "assets/images/author.jpg"
+  },
+  "samplePages": [
+    {
+      "number": 1,
+      "text": "Once upon a time, in a cozy little town, there lived a wise uncle everyone called Uncle Money..."
+    },
+    {
+      "number": 2,
+      "text": "'The best things in life aren't free,' Uncle Money smiled. 'They're earned with hard work and creativity!'"
+    },
+    {
+      "number": 3,
+      "text": "The children learned that saving up for something special made it even more meaningful when they finally got it!"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Uncle Money - Hardcover",
+      "description": "Beautiful hardcover edition perfect for reading together",
+      "price": "$14.99",
+      "badge": "Best Seller",
+      "buy_link": "#",
+      "image": "assets/images/book-cover.png"
+    },
+    {
+      "id": 2,
+      "name": "Uncle Money - Paperback",
+      "description": "Easy-to-carry paperback for young readers",
+      "price": "$9.99",
+      "badge": null,
+      "buy_link": "#",
+      "image": "assets/images/book-cover.png"
+    },
+    {
+      "id": 3,
+      "name": "Uncle Money - E-Book",
+      "description": "Digital edition for tablets and e-readers",
+      "price": "$4.99",
+      "badge": "Instant Download",
+      "buy_link": "#",
+      "image": "assets/images/book-cover.png"
+    },
+    {
+      "id": 4,
+      "name": "Uncle Money Pack",
+      " Hardcover + Activity Book",
+      "description": "Complete set with bonus activities and worksheets",
+      "price": "$24.99",
+      "badge": "Complete Set",
+      "buy_link": "#",
+      "image": "assets/images/book-cover.png"
+    }
+  ],
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have questions? We'd love to hear from you!",
+    "button_text": "Send Message"
+  },
+  "footer": {
+    "copyright": "© 2026 Uncle Money. All rights reserved.",
+    "social": {
+      "facebook": "#",
+      "instagram": "#",
+      "twitter": "#"
+    }
+  }
+}

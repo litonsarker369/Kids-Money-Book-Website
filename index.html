@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uncle Money - A fun children's book for ages 8-10 that teaches why earning money matters. Join the adventure!">
+    <meta name="keywords" content="children's book, financial literacy, kids money, earning money, children's education">
+    <meta name="author" content="Nibir Sarker">
+    <meta property="og:title" content="Uncle Money - Learn Why Earning Money Matters!">
+    <meta property="og:description" content="A fun children's book that teaches kids the value of earning, saving, and spending wisely.">
+    <meta property="og:type" content="book">
+    <meta property="og:url" content="https://unclemoneybook.com">
+    <title>Uncle Money - Learn Why Earning Money Matters!</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-content">
+            <a href="#" class="logo">
+                <span class="logo-icon">🪙</span>
+                <span class="logo-text">Uncle Money</span>
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#sample" class="nav-link">Sample Pages</a>
+                <a href="#shop" class="nav-link">Shop</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-bg">
+                <div class="floating-shape shape-1"></div>
+                <div class="floating-shape shape-2"></div>
+                <div class="floating-shape shape-3"></div>
+            </div>
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Uncle Money</h1>
+                    <p class="hero-tagline">Discover Why Earning Money is the Best Adventure!</p>
+                    <p class="hero-subtitle">A fun-filled story that teaches kids the value of hard work and saving</p>
+                    <a href="#shop" class="btn btn-primary">Get Your Copy 🪙</a>
+                </div>
+                <div class="hero-visual">
+                    <div class="book-3d" id="book3d">
+                        <div class="book-cover">
+                            <span class="book-decoration top-right">💰</span>
+                            <span class="book-decoration bottom-left">🪙</span>
+                            <div class="book-title">Uncle Money</div>
+                            <div class="book-subtitle">Learn Why Earning Money Matters!</div>
+                            <div class="book-illustration">
+                                <div class="book-icon">📖</div>
+                                <div class="book-icon-float">💵</div>
+                            </div>
+                            <div class="book-author">by Nibir Sarker</div>
+                            <div class="book-badge">Ages 8-10</div>
+                        </div>
+                        <div class="book-spine"></div>
+                        <div class="book-pages">
+                            <div class="page page-1"></div>
+                            <div class="page page-2"></div>
+                            <div class="page page-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flying-coins" id="flyingCoins"></div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why Uncle Money?</h2>
+                    <p class="section-subtitle">A story that changes how kids think about money</p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>In this exciting adventure, kids join our friendly Uncle Money as he shows them the magic of earning, saving, and spending wisely. Perfect for ages 8-10, this book makes financial literacy fun!</p>
+                    </div>
+                    <div class="about-lessons">
+                        <div class="lesson-card">
+                            <div class="lesson-icon">💪</div>
+                            <h3>Why earning feels amazing</h3>
+                        </div>
+                        <div class="lesson-card">
+                            <div class="lesson-icon">🐷</div>
+                            <h3>The joy of saving for goals</h3>
+                        </div>
+                        <div class="lesson-card">
+                            <div class="lesson-icon">🛒</div>
+                            <h3>Smart spending decisions</h3>
+                        </div>
+                        <div class="lesson-card">
+                            <div class="lesson-icon">❤️</div>
+                            <h3>Kindness through sharing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sample" id="sample">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Sneak Peek!</h2>
+                    <p class="section-subtitle">Read together with your child</p>
+                </div>
+                <div class="book-flipper">
+                    <button class="flip-btn prev" id="prevPage" aria-label="Previous page">◀</button>
+                    <div class="flipbook" id="flipbook">
+                        <div class="flip-page active" data-page="1">
+                            <div class="page-content">
+                                <span class="page-number">Page 1</span>
+                                <p>Once upon a time, in a cozy little town, there lived a wise uncle everyone called Uncle Money...</p>
+                                <div class="page-illustration">🏘️🌳</div>
+                            </div>
+                        </div>
+                        <div class="flip-page" data-page="2">
+                            <div class="page-content">
+                                <span class="page-number">Page 2</span>
+                                <p>"The best things in life aren't free," Uncle Money smiled. "They're earned with hard work and creativity!"</p>
+                                <div class="page-illustration">😊💡</div>
+                            </div>
+                        </div>
+                        <div class="flip-page" data-page="3">
+                            <div class="page-content">
+                                <span class="page-number">Page 3</span>
+                                <p>The children learned that saving up for something special made it even more meaningful when they finally got it!</p>
+                                <div class="page-illustration">🎯🎉</div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="flip-btn next" id="nextPage" aria-label="Next page">▶</button>
+                </div>
+                <div class="page-dots" id="pageDots">
+                    <span class="dot active" data-page="1"></span>
+                    <span class="dot" data-page="2"></span>
+                    <span class="dot" data-page="3"></span>
+                </div>
+            </div>
+        </section>
+
+        <section class="author" id="author">
+            <div class="container">
+                <div class="author-content">
+                    <div class="author-image">
+                        <div class="author-avatar">
+                            <span>✍️</span>
+                        </div>
+                    </div>
+                    <div class="author-info">
+                        <h2 class="section-title">Meet the Author</h2>
+                        <h3 class="author-name">Nibir Sarker</h3>
+                        <p>Nibir Sarker loves writing stories that help kids learn important life lessons while having fun. With a background in education and a passion for making complex topics simple, Uncle Money was born from the desire to teach children about money in an engaging way.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="interactive" id="interactive">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Fun Zone! 🎮</h2>
+                    <p class="section-subtitle">Play and learn with Uncle Money</p>
+                </div>
+                <div class="interactive-grid">
+                    <div class="game-card coin-game">
+                        <div class="game-header">
+                            <h3>🪙 Coin Collector</h3>
+                            <p>Click the coins before they disappear!</p>
+                        </div>
+                        <div class="game-area" id="coinGame">
+                            <div class="coin-score">
+                                <span>Score:</span>
+                                <span id="coinScore">0</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary" id="startCoinGame">Start Game</button>
+                    </div>
+                    <div class="game-card savings-calc">
+                        <div class="game-header">
+                            <h3>🎯 My Savings Goal</h3>
+                            <p>See how fast you can save!</p>
+                        </div>
+                        <div class="calculator">
+                            <div class="calc-input">
+                                <label>I want to save for:</label>
+                                <input type="text" id="savingsGoal" placeholder="Like a new bike!">
+                            </div>
+                            <div class="calc-input">
+                                <label>Cost:</label>
+                                <input type="number" id="savingsCost" placeholder="$100">
+                            </div>
+                            <div class="calc-input">
+                                <label>I can save each week:</label>
+                                <input type="number" id="weeklySavings" placeholder="$10">
+                            </div>
+                            <button class="btn btn-secondary" id="calculateWeeks">Calculate!</button>
+                            <div class="calc-result" id="calcResult"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="shop" id="shop">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get Your Copy!</h2>
+                    <p class="section-subtitle">Choose the perfect edition for your child</p>
+                </div>
+                <div class="products-grid" id="productsGrid">
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Have questions? We'd love to hear from you!</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Mom or Dad">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message ✉️</button>
+                </form>
+                <div class="form-success" id="formSuccess">
+                    <div class="success-icon">🎉</div>
+                    <h3>Message Sent!</h3>
+                    <p>We'll get back to you soon.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">🪙</span>
+                    <span>Uncle Money</span>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📸</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                </div>
+                <p class="footer-copyright">© 2026 Uncle Money. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
